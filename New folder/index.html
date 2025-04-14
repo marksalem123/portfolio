@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: "Times New Roman", serif;
+            background: linear-gradient(to right, #748096, #737d8f);
+            color: #000000; /* Changed to black */
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* Navbar Styles */
+        nav {
+            background: #405061;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Section */
+        header {
+            background: #a3caee; /* Changed background to light teal */
+            color: white;
+            padding: 20px 0; /* Reduced padding for a smaller header */
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.5em; /* Reduced font size */
+            color: white; /* This will remain white */
+        }
+
+        header p {
+            font-size: 1em; /* Optional: Adjust paragraph size */
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+            background: linear-gradient(to right, #afa8a8, #888888);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: hsl(303, 92%, 41%);
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            background: #0282d8;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            flex: 1 1 calc(45% - 20px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #bbbbb9;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: hsl(303, 92%, 41%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>I'm Mark Christian S. Rivera</h1>
+        <p>Welcome to my portfolio</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="row"></div>
+
+    <div class="container">
+        <section id="about">
+            <h2>About me</h2>
+            <p>I'm Mark Christian S. Rivera. Also, I'm new to making this kind of project, and I'm willing to learn it because I want to learn how to use this code. Without further ado, here I will show you some of my projects and activities. Enjoy!</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project Title 1</h3>
+                    <img src="Screenshot 1.png" alt="Project Title 1" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>This is one of my projects, inside here, you'll see about my experience in our declamation program.</p>
+                    <a href="https://looqww.github.io/mark-s-project/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <img src="Screenshot 2025-04-14 103345.png" alt="Project Title 2" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>This is my simple weblog; you'll see here my hobbies, ambition, and likes and dislikes regarding food.</p>
+                    <a href="https://marksalem123.github.io/act/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 3</h3>
+                    <img src="Screenshot 2025-03-31 113439.png" alt="Project Title 3" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>Here, you'll see my work on my assessment.</p>
+                    <a href="https://marksalem123.github.io/The-light-bulb/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 4</h3>
+                    <img src="Screenshot 2025-03-31 114407.png" alt="Project Title 4" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>Here, you can see my declamation speech.</p>
+                    <a href="https://marksalem123.github.io/discrimination/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 5</h3>
+                    <img src="Screenshot 2025-03-31 122231.png" alt="Project Title 5" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>This one is our previous project on values. cher wag mo pansinin yung mukha ko dun ah HAHAHAH</p>
+                    <a href="https://docs.google.com/document/d/1CmnpqyAe9j2OVen9SYTuJvLzyeXv1YHdeWINBbuDsZo/edit?usp=sharing" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 6</h3>
+                    <img src="science.jpg" alt="Project Title 6" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>Here, you can see my science project work.</p>
+                    <a href="science2.jpg" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 7</h3>
+                    <img src="Screenshot 2025-04-10 113025.png" alt="Project Title 7" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>here, you'll see my work on my computer assessment.</p>
+                    <a href="https://marksalem123.github.io/advocacy/" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 8</h3>
+                    <img src="math3.jpg" alt="Project Title 8" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>A brief description of what this project is about.</p>
+                    <a href="math1.jpg" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 9</h3>
+                    <img src="Screenshot 2025-04-14 104950.png" alt="Project Title 9" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>A brief description of what this project is about.</p>
+                    <a href="https://marksalem123.github.io/ambition/" target="">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project Title 10</h3>
+                    <img src="Screenshot 2025-04-14 105913.png" alt="Project Title 10" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>A brief description of what this project is about.</p>
+                    <a href="https://marksalem123.github.io/likes/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, feel free to reach out!</p>
+            <p>mark.rivera@goldenlink.ph or MarkCSRivera13@gmail.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025, Rivera's portfolio</p>
+    </footer>
+</body>
+
+</html>
